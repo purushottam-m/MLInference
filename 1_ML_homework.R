@@ -15,3 +15,20 @@
 # 3) test_results: A latex table reporting  estimated ATE_group1 - ATE_group5 and its p-value
 # 4) best: A latex table reporting best ML methods
 # 5) MSE: A latex table of mean squared errors from tuning
+
+
+# more changes
+
+# some more changes
+
+rm(list=ls(all=TRUE))
+vec.pac= c("foreign", "quantreg", "gbm", "glmnet",
+           "MASS", "rpart", "doParallel", "sandwich", "randomForest",
+           "nnet", "matrixStats", "xtable", "readstata13", "car", "lfe", "doParallel",
+           "caret", "foreach", "multcomp","cowplot")
+
+# more changes 
+
+
+
+
