@@ -21,6 +21,13 @@
 
 # some more changes
 
+# load packages
+if (!require(pacman)) install.packages('pacman', repos = 'https://cran.rstudio.com')
+pacman::p_load(tidyverse)
+
+
+
+
 rm(list=ls(all=TRUE))
 vec.pac= c("foreign", "quantreg", "gbm", "glmnet",
            "MASS", "rpart", "doParallel", "sandwich", "randomForest",
