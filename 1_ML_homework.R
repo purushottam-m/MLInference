@@ -23,7 +23,7 @@
 
 # load packages
 if (!require(pacman)) install.packages('pacman', repos = 'https://cran.rstudio.com')
-pacman::p_load(tidyverse, styler)
+pacman::p_load(tidyverse)
 
 # setting main directory 
 paths = c("/Users/purushottam/Documents/pse_local/coursework/machine_learning/MachineLearningHW", 
