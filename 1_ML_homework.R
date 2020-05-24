@@ -23,7 +23,8 @@
 
 # load packages
 if (!require(pacman)) install.packages('pacman', repos = 'https://cran.rstudio.com')
-pacman::p_load(tidyverse)
+pacman::p_load(tidyverse, styler)
+
 
 
 
@@ -40,6 +41,5 @@ vec.pac= c("foreign", "quantreg", "gbm", "glmnet",
 
 
 This is a change made by P
-
 
 
