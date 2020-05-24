@@ -25,21 +25,11 @@
 if (!require(pacman)) install.packages('pacman', repos = 'https://cran.rstudio.com')
 pacman::p_load(tidyverse, styler)
 
-
-
-
-
-rm(list=ls(all=TRUE))
-vec.pac= c("foreign", "quantreg", "gbm", "glmnet",
-           "MASS", "rpart", "doParallel", "sandwich", "randomForest",
-           "nnet", "matrixStats", "xtable", "readstata13", "car", "lfe", "doParallel",
-           "caret", "foreach", "multcomp","cowplot")
-
-# more changes 
-
-### 
-
-
-This is a change made by P
+# setting main directory 
+paths = c("/Users/purushottam/Documents/pse_local/coursework/machine_learning/MachineLearningHW", 
+          "C://user/Wilma", 
+          "C://Some/other/path")
+names(paths) = c("purushottam", "mridul", "ucindami")
+setwd(paths[Sys.info()[['user']]])
 
 
